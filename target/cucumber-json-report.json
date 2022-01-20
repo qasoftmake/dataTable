@@ -1,0 +1,1098 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-18T16:44:10.081Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5235549200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.StepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Scenario three - feature 1",
+        "description": "",
+        "id": "facebook-registration-1;scenario-three---feature-1",
+        "after": [
+          {
+            "result": {
+              "duration": 810926500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.StepDefinitions.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1837245000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I am on the new user registration page",
+            "match": {
+              "location": "cucumber.StepDefinitions.iAmOnTheNewUserRegistrationPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2731258800,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I enter invalid data on the page",
+            "match": {
+              "location": "cucumber.StepDefinitions.iEnterInvalidDataOnThePage(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Fields",
+                  "Values"
+                ]
+              },
+              {
+                "cells": [
+                  "firstName",
+                  "Randomfirst"
+                ]
+              },
+              {
+                "cells": [
+                  "lastName",
+                  "randomlast"
+                ]
+              },
+              {
+                "cells": [
+                  "phoneOrEmail",
+                  "someone@test.com"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "randompass"
+                ]
+              },
+              {
+                "cells": [
+                  "dayOfBirth",
+                  "12"
+                ]
+              },
+              {
+                "cells": [
+                  "monthOfBirth",
+                  "6"
+                ]
+              },
+              {
+                "cells": [
+                  "yearOfBirth",
+                  "2005"
+                ]
+              },
+              {
+                "cells": [
+                  "Gender",
+                  "Male"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11999100,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "The user registration should be unsuccessful",
+            "match": {
+              "location": "cucumber.StepDefinitions.theUserRegistrationShouldBeUnsuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-18T16:44:20.713Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2299389900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.StepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "Scenario four - feature 1",
+        "description": "",
+        "id": "facebook-registration-1;scenario-four---feature-1",
+        "after": [
+          {
+            "result": {
+              "duration": 1121011300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.StepDefinitions.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1772686100,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I am on the new user registration page",
+            "match": {
+              "location": "cucumber.StepDefinitions.iAmOnTheNewUserRegistrationPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3338079300,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I enter invalid data on the page",
+            "match": {
+              "location": "cucumber.StepDefinitions.iEnterInvalidDataOnThePage(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Fields",
+                  "Values"
+                ]
+              },
+              {
+                "cells": [
+                  "firstName",
+                  "Randomfirst"
+                ]
+              },
+              {
+                "cells": [
+                  "lastName",
+                  "randomlast"
+                ]
+              },
+              {
+                "cells": [
+                  "phoneOrEmail",
+                  "someone@test.com"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "randompass"
+                ]
+              },
+              {
+                "cells": [
+                  "dayOfBirth",
+                  "12"
+                ]
+              },
+              {
+                "cells": [
+                  "monthOfBirth",
+                  "6"
+                ]
+              },
+              {
+                "cells": [
+                  "yearOfBirth",
+                  "2005"
+                ]
+              },
+              {
+                "cells": [
+                  "Gender",
+                  "Male"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7999700,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "The user registration should be unsuccessful",
+            "match": {
+              "location": "cucumber.StepDefinitions.theUserRegistrationShouldBeUnsuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          },
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      }
+    ],
+    "name": "Facebook registration 1",
+    "description": "  Verify the new user registration is unsuccessful after passing incorrect inputs",
+    "id": "facebook-registration-1",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/dataTable.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-18T16:44:10.081Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5089547800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.StepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Scenario three - feature 2",
+        "description": "",
+        "id": "facebook-registration-2;scenario-three---feature-2",
+        "after": [
+          {
+            "result": {
+              "duration": 5336530200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.StepDefinitions.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1709662600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I am on the new user registration page",
+            "match": {
+              "location": "cucumber.StepDefinitions.iAmOnTheNewUserRegistrationPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2718840900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I enter invalid data on the page",
+            "match": {
+              "location": "cucumber.StepDefinitions.iEnterInvalidDataOnThePage(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Fields",
+                  "Values"
+                ]
+              },
+              {
+                "cells": [
+                  "firstName",
+                  "Randomfirst"
+                ]
+              },
+              {
+                "cells": [
+                  "lastName",
+                  "randomlast"
+                ]
+              },
+              {
+                "cells": [
+                  "phoneOrEmail",
+                  "someone@test.com"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "randompass"
+                ]
+              },
+              {
+                "cells": [
+                  "dayOfBirth",
+                  "12"
+                ]
+              },
+              {
+                "cells": [
+                  "monthOfBirth",
+                  "6"
+                ]
+              },
+              {
+                "cells": [
+                  "yearOfBirth",
+                  "2005"
+                ]
+              },
+              {
+                "cells": [
+                  "Gender",
+                  "Male"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6997400,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "The user registration should be unsuccessful",
+            "match": {
+              "location": "cucumber.StepDefinitions.theUserRegistrationShouldBeUnsuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-18T16:44:24.950Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2037903900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.StepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "Scenario four - feature 2",
+        "description": "",
+        "id": "facebook-registration-2;scenario-four---feature-2",
+        "after": [
+          {
+            "result": {
+              "duration": 5062239500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.StepDefinitions.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1473060700,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I am on the new user registration page",
+            "match": {
+              "location": "cucumber.StepDefinitions.iAmOnTheNewUserRegistrationPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1957171300,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I enter invalid data on the page",
+            "match": {
+              "location": "cucumber.StepDefinitions.iEnterInvalidDataOnThePage(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Fields",
+                  "Values"
+                ]
+              },
+              {
+                "cells": [
+                  "firstName",
+                  "Randomfirst"
+                ]
+              },
+              {
+                "cells": [
+                  "lastName",
+                  "randomlast"
+                ]
+              },
+              {
+                "cells": [
+                  "phoneOrEmail",
+                  "someone@test.com"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "randompass"
+                ]
+              },
+              {
+                "cells": [
+                  "dayOfBirth",
+                  "12"
+                ]
+              },
+              {
+                "cells": [
+                  "monthOfBirth",
+                  "6"
+                ]
+              },
+              {
+                "cells": [
+                  "yearOfBirth",
+                  "2005"
+                ]
+              },
+              {
+                "cells": [
+                  "Gender",
+                  "Male"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5001100,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "The user registration should be unsuccessful",
+            "match": {
+              "location": "cucumber.StepDefinitions.theUserRegistrationShouldBeUnsuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          },
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      }
+    ],
+    "name": "Facebook registration 2",
+    "description": "  Verify the new user registration is unsuccessful after passing incorrect inputs",
+    "id": "facebook-registration-2",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/dataTable2.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-18T16:44:10.081Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5309549500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.StepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Scenario three - feature 1",
+        "description": "",
+        "id": "facebook-registration-1;scenario-three---feature-1",
+        "after": [
+          {
+            "result": {
+              "duration": 823926800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.StepDefinitions.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1744244700,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I am on the new user registration page",
+            "match": {
+              "location": "cucumber.StepDefinitions.iAmOnTheNewUserRegistrationPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2760256900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I enter invalid data on the page",
+            "match": {
+              "location": "cucumber.StepDefinitions.iEnterInvalidDataOnThePage(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Fields",
+                  "Values"
+                ]
+              },
+              {
+                "cells": [
+                  "firstName",
+                  "Randomfirst"
+                ]
+              },
+              {
+                "cells": [
+                  "lastName",
+                  "randomlast"
+                ]
+              },
+              {
+                "cells": [
+                  "phoneOrEmail",
+                  "someone@test.com"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "randompass"
+                ]
+              },
+              {
+                "cells": [
+                  "dayOfBirth",
+                  "12"
+                ]
+              },
+              {
+                "cells": [
+                  "monthOfBirth",
+                  "6"
+                ]
+              },
+              {
+                "cells": [
+                  "yearOfBirth",
+                  "2005"
+                ]
+              },
+              {
+                "cells": [
+                  "Gender",
+                  "Male"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6999300,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "The user registration should be unsuccessful",
+            "match": {
+              "location": "cucumber.StepDefinitions.theUserRegistrationShouldBeUnsuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-18T16:44:20.730Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2940425900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.StepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "Scenario four - feature 1",
+        "description": "",
+        "id": "facebook-registration-1;scenario-four---feature-1",
+        "after": [
+          {
+            "result": {
+              "duration": 5174124100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.StepDefinitions.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1631788000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I am on the new user registration page",
+            "match": {
+              "location": "cucumber.StepDefinitions.iAmOnTheNewUserRegistrationPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3460897800,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I enter invalid data on the page",
+            "match": {
+              "location": "cucumber.StepDefinitions.iEnterInvalidDataOnThePage(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Fields",
+                  "Values"
+                ]
+              },
+              {
+                "cells": [
+                  "firstName",
+                  "Randomfirst"
+                ]
+              },
+              {
+                "cells": [
+                  "lastName",
+                  "randomlast"
+                ]
+              },
+              {
+                "cells": [
+                  "phoneOrEmail",
+                  "someone@test.com"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "randompass"
+                ]
+              },
+              {
+                "cells": [
+                  "dayOfBirth",
+                  "12"
+                ]
+              },
+              {
+                "cells": [
+                  "monthOfBirth",
+                  "6"
+                ]
+              },
+              {
+                "cells": [
+                  "yearOfBirth",
+                  "2005"
+                ]
+              },
+              {
+                "cells": [
+                  "Gender",
+                  "Male"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14995300,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "The user registration should be unsuccessful",
+            "match": {
+              "location": "cucumber.StepDefinitions.theUserRegistrationShouldBeUnsuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          },
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      }
+    ],
+    "name": "Facebook registration 1",
+    "description": "  Verify the new user registration is unsuccessful after passing incorrect inputs",
+    "id": "facebook-registration-1",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/dataTable3.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-18T16:44:10.081Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5032564100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.StepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Scenario three - feature 1",
+        "description": "",
+        "id": "facebook-registration-1;scenario-three---feature-1",
+        "after": [
+          {
+            "result": {
+              "duration": 933921900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.StepDefinitions.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1889190200,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I am on the new user registration page",
+            "match": {
+              "location": "cucumber.StepDefinitions.iAmOnTheNewUserRegistrationPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2624309100,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I enter invalid data on the page",
+            "match": {
+              "location": "cucumber.StepDefinitions.iEnterInvalidDataOnThePage(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Fields",
+                  "Values"
+                ]
+              },
+              {
+                "cells": [
+                  "firstName",
+                  "Randomfirst"
+                ]
+              },
+              {
+                "cells": [
+                  "lastName",
+                  "randomlast"
+                ]
+              },
+              {
+                "cells": [
+                  "phoneOrEmail",
+                  "someone@test.com"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "randompass"
+                ]
+              },
+              {
+                "cells": [
+                  "dayOfBirth",
+                  "12"
+                ]
+              },
+              {
+                "cells": [
+                  "monthOfBirth",
+                  "6"
+                ]
+              },
+              {
+                "cells": [
+                  "yearOfBirth",
+                  "2005"
+                ]
+              },
+              {
+                "cells": [
+                  "Gender",
+                  "Male"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70001200,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "The user registration should be unsuccessful",
+            "match": {
+              "location": "cucumber.StepDefinitions.theUserRegistrationShouldBeUnsuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-18T16:44:20.658Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2213391400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.StepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "Scenario four - feature 1",
+        "description": "",
+        "id": "facebook-registration-1;scenario-four---feature-1",
+        "after": [
+          {
+            "result": {
+              "duration": 5407966400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.StepDefinitions.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1756684100,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I am on the new user registration page",
+            "match": {
+              "location": "cucumber.StepDefinitions.iAmOnTheNewUserRegistrationPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3613608500,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I enter invalid data on the page",
+            "match": {
+              "location": "cucumber.StepDefinitions.iEnterInvalidDataOnThePage(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Fields",
+                  "Values"
+                ]
+              },
+              {
+                "cells": [
+                  "firstName",
+                  "Randomfirst"
+                ]
+              },
+              {
+                "cells": [
+                  "lastName",
+                  "randomlast"
+                ]
+              },
+              {
+                "cells": [
+                  "phoneOrEmail",
+                  "someone@test.com"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "randompass"
+                ]
+              },
+              {
+                "cells": [
+                  "dayOfBirth",
+                  "12"
+                ]
+              },
+              {
+                "cells": [
+                  "monthOfBirth",
+                  "6"
+                ]
+              },
+              {
+                "cells": [
+                  "yearOfBirth",
+                  "2005"
+                ]
+              },
+              {
+                "cells": [
+                  "Gender",
+                  "Male"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10003300,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "The user registration should be unsuccessful",
+            "match": {
+              "location": "cucumber.StepDefinitions.theUserRegistrationShouldBeUnsuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          },
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      }
+    ],
+    "name": "Facebook registration 1",
+    "description": "  Verify the new user registration is unsuccessful after passing incorrect inputs",
+    "id": "facebook-registration-1",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/dataTable4.feature",
+    "tags": []
+  }
+]

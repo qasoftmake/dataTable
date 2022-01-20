@@ -1,0 +1,8 @@
+cucumber\RunTest.class
+pages\LoginPage.class
+cucumber\BaseTest.class
+pages\PageBase.class
+pages\RegistrationPage.class
+cucumber\StepDefinitions.class
+StepDefinitions.class
+cucumber\Driver.class
